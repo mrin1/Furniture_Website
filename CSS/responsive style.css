@@ -1,0 +1,305 @@
+/* ========================================== 1400 =============================================== */
+/* =========================================== 1199 ============================================== */
+@media screen and (max-width: 1199px) {
+    /* ================================ navbar ================================================ */
+    .navbar .container .nav-menu ul li{
+     padding: 57px 70px;
+    }
+    /* ================================= banner ============================================== */
+    .banner .container .row .content{
+        max-width: 600px;
+        width: 100%;
+    }
+    /* ================================ about ================================================== */
+    .about .container .row .content{
+        width: 90%;
+        
+    }
+    /* ================================ join =================================================== */
+    .join .container .row{
+        width: 35%;
+    }
+}
+/* ============================================ 1024 ============================================= */
+@media screen and (max-width: 1024px) {
+    /* ================================ navbar ================================================ */
+    .navbar .container .nav-menu ul li{
+     padding: 57px 50px;
+    }
+    /* ================================= banner ============================================== */
+    .banner .container .row .content{
+        max-width: 515px;
+        width: 100%;
+        max-height: 550px;
+        height: 100%;
+    }
+    
+    /* =================================== contact ============================================== */
+    .contact .container .row .contact-part2 .contact-card-layout .contact-card{
+        max-width: 300px;
+        width: 100%;
+        min-height: 50px;
+        height: 100%;
+   }
+   /* ======================================== range ============================================ */
+   /* .range .container .row .range-part2 .card-layout{
+     justify-content: space-evenly;
+   } */
+   /* ======================================== work ============================================= */
+   /* .work .container .row .work-part2 .card-layout{
+     justify-content: space-evenly;
+   } */
+   /* ================================ join =================================================== */
+   .join .container .row{
+     width: 40%;
+   }
+   /* ================================ footer ================================================== */
+    footer .container .content .care p{
+        width: 95%;
+    }
+    footer .container .content .shop h3{
+        text-align: center;
+   }
+    /* footer .container .content .shop .shop-part2 .shop-card-layout{
+     justify-content: space-evenly;
+   }  */
+}
+/* ============================================ 991 ============================================== */
+@media screen and (max-width: 991px) {
+    /* ================================ navbar ================================================ */
+    .navbar .container .nav-menu ul li{
+     padding: 57px 40px;
+    }
+    /* ================================= banner ============================================== */
+    .banner .container .row .content{
+        max-width: 495px;
+        width: 100%;
+        max-height: 550px;
+        height: 100%;
+    }
+    /* ====================================== about ============================================= */
+    .about .container .row .content{
+        gap: 25px;
+    }
+    .about .container .row .content .line p{
+        width: 95%;
+    }
+    .about .container .row .content .line button{
+        padding: 18px 38px;
+    }
+}
+/* ============================================= 767 ============================================= */
+@media screen and (max-width: 767px) {
+    /* ================================ navbar ================================================ */
+    .navbar{
+        padding: 57px 0;
+    }
+    .navbar .container .bar .icon{
+        display: inline;
+    }
+    .navbar .container .nav-menu ul{
+        display: block;
+        position: absolute;
+        width: 100%;
+        z-index: 100;
+        top: 156px;
+        left: 0;
+        text-align: center;
+        background: pink;
+    }
+    .navbar .container .nav-menu ul li{
+        padding: 27px 0;
+    }
+     /* =================================== contact ============================================== */
+     .contact .container .row .contact-part2 .contact-card-layout .contact-card{
+        max-width: 230px;
+        width: 100%;
+        min-height: 80px;
+        height: 100%;
+    }
+    /* ================================= banner ============================================== */
+    .banner .container .row .content{
+        max-width: 600px;
+        width: 100%;
+        max-height: 443px;
+        height: 100%;
+        transform: translate(1%);
+    }
+
+  
+     /* ================================ about ================================================== */
+     .about .container .row .content{
+        flex-wrap: wrap;
+        text-align: center;
+        gap: 22px;
+     }
+    /* ======================================= join ============================================== */
+    .join .container .row{
+        width: 55%;
+    }
+}
+/* ============================================= 575 ============================================= */
+@media screen and (max-width: 575px) {
+    /* ================================= banner ============================================== */
+     .banner .container .row .content{
+        max-height: 550px;
+        height: 100%;
+    } 
+    .banner .container .row .content h3{
+        width: 80%;
+    }
+    /* =================================== contact ============================================== */
+    .contact .container .row .contact-part2 .contact-card-layout .contact-card{
+        max-width: 180px;
+        width: 100%;
+        min-height: 100px;
+        height: 100%;
+    }
+    .contact .container .row .contact-part2 .contact-card-layout .contact-card .card-content{
+        text-align: center;
+    }
+     /* ================================ about ================================================== */
+     .about .container .row .content{
+        width: 85%;
+     }
+    .about .container .row .content .line button{
+        padding: 15px 20px;
+    }
+    .about .container .row .content .line p{
+        width: 95%;
+        font-size: 16px;
+        padding-bottom: 15px;
+    }
+    .about .container .row .content .line h3{
+          font-size: 25px;
+          padding-bottom: 10px;
+    }
+     .about .container .row .content .img img{
+        width: 100%;
+        height: 100%;
+    }
+     /* ======================================= join ============================================= */
+     .join .container .row{
+        width: 70%;
+    }
+     /* ================================ footer ================================================== */
+     footer .container .content .care p{
+        width: 100%;
+    }
+    footer .container .content{
+        width: 100%;
+    }
+}
+/* ============================================= 480 ============================================= */
+@media screen and (max-width: 480px) {
+    /* ================================= banner ============================================== */
+    .banner .container .row .content h3{
+        width: 90%;
+    }
+   
+    /* =================================== contact ============================================== */
+    .contact .container .row .contact-part2 .contact-card-layout .contact-card{
+        max-width: 120px;
+        width: 100%;
+        min-height: 120px;
+        height: 100%;
+    }
+    .contact .container .row .contact-part2 .contact-card-layout .contact-card .card-content{
+        text-align: center;
+    }
+    /* ==================================== collection ========================================== */
+    .collection .container .row p{
+        font-size: 18px;
+    }
+    /* =================================== about ================================================= */
+    .about .container .row .content .line p{
+        width: 98%;
+        font-size: 12px;
+        padding-bottom: 5px;
+    }
+    .about .container .row .content .line h3{
+          font-size: 20px;
+          padding-bottom: 5px;
+    }
+    .about .container .row .content .img img{
+       width: 100%;
+       height: 100%;
+    } 
+    /*============================================ range ======================================= */
+     .range .container .row p{
+        font-size: 18px;
+    }
+    /* =========================================== work ========================================= */
+    .work .container .row p{
+        font-size: 18px;
+    }
+    /* ======================================= join ============================================= */
+    .join .container .row{
+        width: 85%;
+    }
+}
+/* ============================================= 350 ============================================= */
+@media screen and (max-width: 350px) {
+    /* ================================= banner ============================================== */
+    .banner .container .row .content{
+        max-height: 600px;
+        height: 100%;
+    } 
+    .banner .container .row .content h3{
+        width: 100%;
+    }
+    /* =================================== contact ============================================== */
+    .contact .container .row .contact-part2 .contact-card-layout .contact-card{
+        max-width: 100px;
+        width: 100%;
+        min-height: 160px;
+        height: 100%;
+    }
+    .contact .container .row .contact-part2 .contact-card-layout .contact-card .card-content{
+        text-align: center;
+    }
+    /* ==================================== collection ========================================= */
+      .collection .container .row p{
+        font-size: 18px;
+        text-align: center;
+    }
+    .collection .container .row h2{
+        font-size: 25px;
+    }
+    /* =================================== about ================================================= */
+    .about .container .row .content .line p{
+        width: 100%;
+        font-size: 10px;
+        padding-bottom: 5px;
+        line-height: 2;
+    }
+    .about .container .row .content .line h3{
+          font-size: 16px;
+          padding-bottom: 2px;
+    }
+    .about .container .row .content .img img{
+       width: 100%;
+       height: 100%;
+    } 
+    .about .container .row .content .line button{
+        padding: 10px 15px;
+    }
+    /*============================================ range =======================================  */
+    .range .container .row p{
+        text-align: center;
+    }
+    /* =========================================== work ========================================= */
+    .work .container .row p{
+        text-align: center;
+    }
+    /* ======================================= join ============================================= */
+    .join .container .row{
+        width: 100%;
+    }
+    .join .container .row .content h3{
+        font-size: 22px;
+    }
+    .join .container .row .content P{
+        font-size: 16px;
+    }
+}

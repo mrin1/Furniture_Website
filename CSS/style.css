@@ -1,0 +1,585 @@
+/* ===================== common styling =========================== */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    background-color: #E5E5E5;
+}
+section,
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    max-width: 1264px;
+    padding: 0 15px;
+    margin: 0 auto;
+    width: 100%;
+}
+section{
+    padding: 60px 0;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.flex-col{
+    flex-direction: column;
+}
+/* ====================================================== header ================================= */
+/* ======================================================= navbar ================================ */
+.navbar{
+    min-height: 131px;
+    height: 100%;
+    background: #ffff;
+}
+.navbar .container{
+    /* height: 100%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .container .logo p{
+    font-family: Montserrat;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 41.45px;
+    color: rgba(5, 76, 115, 1);
+}
+.navbar .container .nav-menu ul{
+    display: flex;
+}
+.navbar .container .nav-menu ul li{
+    padding: 57px 73px;
+}
+.navbar .container .nav-menu ul li a{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.07px;
+    color: rgba(51, 51, 51, 1);
+}
+.navbar .container .bar .icon{
+    display: none;
+}
+/* =============================================== banner ======================================== */
+.banner{
+    min-height: 749px;
+    height: 100%;
+    background: url(../imges/Mask\ Group.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.banner .container{
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+}
+.banner .container .row{
+    width: 100%;
+}
+.banner .container .row .content{
+    max-width: 643px;
+    width: 100%;
+    max-height: 443px;
+    height: 100%;
+    text-align: left;
+    background: rgba(223, 233, 244, 1);
+    transform: translate(50%);
+    padding: 39px 37px;
+    /* flex-wrap: wrap; */
+}
+.banner .container .row .content span{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.5px;
+    letter-spacing: 3px;
+    padding-bottom: 20px;
+    color: rgba(51, 51, 51, 1);
+}
+.banner .container .row .content h3{
+    width: 65%;
+    font-family: Montserrat;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 65px;
+    color: rgba(5, 76, 115, 1);
+    padding-bottom: 20px;
+}
+.banner .container .row .content p{
+    width: 67%;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 39px;
+    color: rgba(51, 51, 51, 1);
+    padding-bottom: 30px;
+}
+.banner .container .row .content button{
+     padding: 25px 72px;
+     border-radius: 50px;
+     background: rgba(5, 76, 115, 1);
+     color: rgba(255, 255, 255, 1);
+     border: none;
+     text-transform: uppercase;
+}
+.banner .container .row .card-layout{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+/* ====================================== contact ================================================ */
+.contact{
+    min-height: 150px;
+    height: 100%;
+    background: rgba(242, 245, 255, 1);
+}
+.contact .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact .container .row{
+    width: 100%;
+}
+.contact .container .row .contact-part2{
+    width: 100%;
+    height: 80%;
+}
+.contact .container .row .contact-part2 .contact-card-layout{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contact .container .row .contact-part2 .contact-card-layout .contact-card{
+     max-width: 338px;
+     width: 100%;
+     min-height: 55px;
+     height: 100%;
+}
+.contact .container .row .contact-part2 .contact-card-layout .contact-card .card-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contact .container .row .contact-part2 .contact-card-layout .contact-card .card-content .line h4{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.26px;
+    color: rgba(51, 51, 51, 1);
+}
+.contact .container .row .contact-part2 .contact-card-layout .contact-card .card-content .line p{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    color: rgba(51, 51, 51, 1);
+}
+/* ========================================= collection ========================================== */
+.collection{
+    height: auto;
+    background: #ffff;
+}
+.collection .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.collection .container .row{
+    width: 100%;
+}
+.collection .container .row h2{
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39.01px;
+    color: rgba(51, 51, 51, 1);
+    padding-bottom: 20px;
+}
+.collection .container .row p{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.38px;
+    color: rgba(102, 102, 102, 1);
+    padding-bottom: 50px;
+}
+.collection .container .row .collection-part2{
+    width: 100%;
+    height: 80%;
+}
+.collection .container .row .collection-part2 .card-layout{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.collection .container .row .collection-part2 .card-layout .card{
+    max-width: 355px;
+    min-height: 434px;
+}
+.collection .container .row .collection-part2 .card-layout .card img{
+    width: 100%;
+    height: 100%;
+}
+/* ========================================= about =============================================== */
+.about{
+    min-height: 874px;
+    height: 100%;
+    background: rgba(242, 245, 255, 1);
+}
+.about .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about .container .row{
+    width: 100%;
+}
+.about .container .row .content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about .container .row .content .line h3{
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39.01px;
+    color: rgba(51, 51, 51, 1);
+    padding-bottom: 20px;
+}
+.about .container .row .content .line p{
+    width: 68%;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 39px;
+    color: rgba(102, 102, 102, 1);
+    padding-bottom: 30px;
+}
+.about .container .row .content .line button{
+    padding: 24px 57px;
+    border-radius: 50px;
+    background: rgba(5, 76, 115, 1);
+    color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(5, 76, 115, 1);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.5px;
+    text-transform: capitalize;
+}
+.about .container .row .content .img{
+    width: 100%;
+    height: 100%;
+}
+/* =========================================== range ============================================= */
+.range{
+    height: auto;
+    background: #ffff;
+}
+.range .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.range .container .row{
+    width: 100%;
+}
+.range .container .row h2{
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39.01px;
+    color: rgba(51, 51, 51, 1);
+    padding-bottom: 20px;
+}
+.range .container .row p{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.38px;
+    color: rgba(102, 102, 102, 1);
+    padding-bottom: 50px;
+}
+.range .container .row .range-part2{
+    width: 100%;
+    height: 80%;
+}
+.range .container .row .range-part2 .card-layout{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.range .container .row .range-part2 .card-layout .card{
+    max-width: 381px;
+    width: 100%;
+    min-height: 509px;
+    height: 100%;
+}
+.range .container .row .range-part2 .card-layout .card .img img{
+    width: 100%;
+    height: 100%;
+}
+.range .container .row .range-part2 .card-layout .card .line p{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.26px;
+    text-align: center;
+    color: rgba(51, 51, 51, 1);
+    padding-top: 30px;
+}
+/* ==================================== work ===================================================== */
+.work{
+    height: auto;
+    background: #ffff;
+}
+.work .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.work .container .row{
+    width: 100%;
+}
+.work .container .row h2{
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39.01px;
+    color: rgba(51, 51, 51, 1);
+    padding-bottom: 20px;
+}
+.work .container .row p{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.38px;
+    color: rgba(102, 102, 102, 1);
+    padding-bottom: 50px;
+}
+.work .container .row .work-part2{
+    width: 100%;
+    height: 80%;
+}
+.work .container .row .work-part2 .card-layout{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.work .container .row .work-part2 .card-layout .card{
+    max-width: 381px;
+    width: 100%;
+    min-height: 500px;
+    height: 100%;
+}
+.work .container .row .work-part2 .card-layout .card .img-card{
+    width: 90px;
+    height: 90px;
+    /* background: rgba(252, 252, 252, 1);  */
+    background: rgba(17, 17, 17, 1);
+    border-radius: 50px;
+    position: absolute;
+    transform: translateY(-65%) translateX(150%);
+}
+.work .container .row .work-part2 .card-layout .card .img-card span{
+     display: flex;
+     justify-content: center;
+     padding-top: 31px;
+     font-family: Montserrat;
+     font-size: 24px;
+     font-weight: 700;
+     line-height: 29.26px;
+     color: rgba(255, 255, 255, 1);
+
+}
+.work .container .row .work-part2 .card-layout .card .img img{
+    width: 100%;
+    height: 100%;
+}
+.work .container .row .work-part2 .card-layout .card .para h4{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.26px;
+    color: rgba(51, 51, 51, 1);
+    padding-top: 61px;
+    text-align: center;
+}
+.work .container .row .work-part2 .card-layout .card .para p{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgba(102, 102, 102, 1);
+    text-align: center;
+}
+/* ====================================== join =================================================== */
+.join{
+    min-height: 363px;
+    height: 100%;
+    background: rgba(242, 245, 255, 1);
+}
+.join .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.join .container .row{
+    width: 32%;
+}
+.join .container .row .content h3{
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39.01px;
+    text-align: center;
+    color: rgba(51, 51, 51, 1);
+    padding-bottom: 10px;
+}
+.join .container .row .content P{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 39px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.join .container .row .content .submit{
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.join .container .row .content .submit input{
+    width: 100%;
+    padding: 25px 0;
+    border: 1px solid rgba(5, 76, 115, 1);
+}
+.join .container .row .content .submit input::placeholder{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    color: rgba(1, 28, 66, 1);
+    padding: 0 25px;
+}
+.join .container .row .content .submit button{
+     padding: 25px 44px;
+     background: rgba(5, 76, 115, 1);
+     border: 1px solid rgba(1, 28, 66, 1);
+     color: rgba(255, 255, 255, 1);
+}
+/* ================================================ footer ======================================= */
+footer{
+    min-height: 386px;
+    height: 100%;
+    background: rgba(3, 52, 79, 1);
+}
+footer .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .container .content{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .container .content .care{
+    width: 35%;
+    padding-top: 49px;
+}
+footer .container .content .care h3{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.26px;
+    color: rgba(255, 255, 255, 1);
+    padding-bottom: 34px;
+}
+footer .container .content .care p{
+    width: 85%;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+    color: rgba(255, 255, 255, 0.7);
+    padding-bottom: 21px;
+}
+footer .container .content .care h4{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.26px;
+    color: rgba(255, 255, 255, 1);
+}
+footer .container .content .shop{
+    width: 70%;
+    padding-top: 60px;
+}
+footer .container .content .shop h3{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.26px;
+    color: rgba(255, 255, 255, 1);
+    padding-bottom: 23px;
+}
+footer .container .content .shop .shop-part2{
+    width: 100%;
+    height: 80%;
+}
+footer .container .content .shop .shop-part2 .shop-card-layout{
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     flex-wrap: wrap;
+}
+footer .container .content .shop .shop-part2 .shop-card-layout .shop-card{
+     max-width: 175px;
+     min-height: 185px;
+}
+
+/* ========================================= swiper ============================================== */
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
